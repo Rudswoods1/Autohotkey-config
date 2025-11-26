@@ -1,4 +1,4 @@
-﻿; =====================================
+; =====================================
 ;    
 ;   0. Настройки Виртуальных Десктопов
 ;      
@@ -7,57 +7,50 @@
 DesktopCount := 4  
 CurrentDesktop := 1 
 
-; Ctrl+Alt+N - для следующего трека
-#IfWinActive
-^!n:: 
-Send {Media_Next}
-return
-
 ; === 1. Перемещение через рабочие столы (Ctrl + Win + стрелки)
 ^#Right::Send ^#{Right}
 ^#Left::Send ^#{Left}
 
-; === 2. Создание нового рабочего стола (Win + Ctrl + D)
-^#d::Send ^#d
+; === 2. Создание нового рабочего стола (Win + Ctrl + C)
+^#c::Send ^#d
 return
 
-; === 3. Стандартная комбинация для удаления текущего рабочего стола (Win+Ctrl+F4)
-^#F::
-    Send ^#{F4} ;
+; === 3. Удаление текущего рабочего стола (Win + Ctrl + D)
+^#d::
+    Send ^#{F4}
 return
-
 
 
 
 ; =====================================
 ;    
-;   1.  Открытие программ 
+;   1.  Programs Hotkeys
 ;      
 ; =====================================
 
-; === 1. Открытие CMD (Win + T)
+; === 1. CMD (Win + T)
 #t::Run, % "cmd.exe /k cd /d C:\", , C:\
 
-; === 2. Открытие Task Manager (Ctrl + Win + Delete)
+; === 2. Task Manager (Ctrl + Win + Delete)
 ^#Delete:: Run taskmgr
 return
 
-; === 3. Открытие Chrome (Win + F)
+; === 3. Chrome (Win + F)
 #f::Run chrome.exe
 
-; === 4. Открытие Spotify (Win + S)
+; === 4. Spotify (Win + S)
 #s::Run "C:\Users\nurbolik\AppData\Roaming\Spotify\Spotify.exe"
 
-; === 5. Открытие Telegram (Win + G)
+; === 5. Telegram (Win + G)
 #g::Run "C:\Users\nurbolik\AppData\Roaming\Telegram Desktop\Telegram.exe"
 
-; === 6. Открытие VS Code (Win + V)
+; === 6. VS Code (Win + V)
 #v::Run "C:\Users\nurbolik\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 
-; === 7. Открытие блокнота (Win + N)
+; === 7. Notepad (Win + N)
 #n::Run notepad.exe
 
-; === 8. Открытие блокнота (Win + Shift + N)
+; === 8. NotesHub (Win + Shift + N)
 #+n::Run "C:\Program Files\Google\Chrome\Application\chrome_proxy.exe" --profile-directory=Default --app-id=cgainpneeikidkfocghppdpjaccgalkn
 return
 
@@ -122,32 +115,7 @@ MoveWindowToDesktop(direction) {
     }
 return
 
-; === 4. Увеличение или уменьшение размера окна (Win + X + left/right)
-~x & Left::
-    WinGetPos, X, Y, W, H, A
-    W := W - 50
-    WinMove, A, , X, Y, W, H
-return
-
-~x & Right::
-    WinGetPos, X, Y, W, H, A
-    W := W + 50
-    WinMove, A, , X, Y, W, H
-return
-
-~x & Up::
-    WinGetPos, X, Y, W, H, A
-    H := H - 50
-    WinMove, A, , X, Y, W, H
-return
-
-~x & Down::
-    WinGetPos, X, Y, W, H, A
-    H := H + 50
-    WinMove, A, , X, Y, W, H
-return
-
-; === 5. Смена фокуса и курсора между окнами (Win + X + left/right)
+; === 4. Смена фокуса и курсора между окнами (Win + X + left/right)
 #NoEnv
 #SingleInstance Force
 SetBatchLines -1
@@ -368,7 +336,7 @@ return
 
 ; ====================================
 ;   
-;     3. Ночной теплый режим
+;     3. Toggle Night mode
 ;   
 ; ====================================
 
@@ -466,7 +434,7 @@ ResetGamma() {
 
 ; ============================
 ;  
-;   2. Комманды Windows 
+;   2. Windows OS Hotkeys 
 ;
 ; ============================
 
@@ -542,3 +510,9 @@ TileWindow(hWnd) {
 
 Cleanup:
     ExitApp
+
+; Ctrl+Alt+N - для следующего трека
+#IfWinActive
+^!n:: 
+Send {Media_Next}
+return
