@@ -42,8 +42,7 @@ Autohotkey configuration I use to control workspaces, programs, and other comman
 > Some text
 > 
 > ## Running
-> [Install AutoHotkey](https://autohotkey.com/download/) v1.1 or later, then run the `desktop_switcher.ahk` script (open with AutoHotkey if prompted). You can disable the switching animation by opening "Adjust the appearance and performance of Windows" and then unselecting the checkmark "Animate windows when minimizing and maximizing".
+> [Install AutoHotkey](https://autohotkey.com/download/) v1.1 or later, then run the `Programs Keybinds.ahk` script (open with AutoHotkey if prompted) and [VirtualDesktopAccessor.dll](https://github.com/Ciantic/VirtualDesktopAccessor) (for support to control virtual desktops). You can disable the switching animation by opening "Adjust the appearance and performance of Windows" and then unselecting the checkmark "Animate windows when minimizing and maximizing".
 > 
 > ### Notes about Windows 1809/1903≤ Updates
-> This project relies partly on [VirtualDesktopAccessor.dll](https://github.com/Ciantic/VirtualDesktopAccessor) (for moving windows to other desktops). This binary is included in this repository for convenience, and was recently updated to work with the 1809/1903≤ updates. 
-> 
+> This project relies partly on VirtualDesktopAccessor.dll. This binary is included in this repository for convenience, and was recently updated to work with the 1809/1903≤ updates. 
