@@ -1,6 +1,6 @@
-# windows-desktop-switcher
+# my-autohotkey-config
 
-Autohotkey configuration I use to control workspaces (virtual desktops) on Windows, using the same workspaces and keybindings I use on Linux.
+Autohotkey configuration I use to control workspaces, programs, and other commands on Windows, using the same keybindings I use on Linux.
 
 
 > ## Virtual Desktop Hotkeys 
