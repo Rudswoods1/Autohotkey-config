@@ -3,11 +3,11 @@
 Autohotkey configuration I use to control workspaces (virtual desktops) on Windows, using the same workspaces and keybindings I use on Linux.
 
 
-> ## Hotkeys
+> ## Virtual Desktop Hotkeys 
 > 
 > Action | Keys 
 > --- | :-:
-> **Switch** to virtual desktop **1, 2, etc.**<br>*(you can also use the Numpad)*|<kbd>CapsLock</kbd> + <kbd>1</kbd><br><kbd>CapsLock</kbd> + <kbd>2</kbd><br>...<br><kbd>CapsLock</kbd> + <kbd>9</kbd>
+> **Switch** to virtual desktop **1, 2, etc.**<br>|<kbd>Alt</kbd> + <kbd>1</kbd><br><kbd>Alt</kbd> + <kbd>2</kbd><br>...<br><kbd>Alt</kbd> + <kbd>9</kbd>
 > **Switch back** to the last desktop used|<kbd>CapsLock</kbd> + <kbd>Tab</kbd>
 > **Switch** to the virtual desktop on the **left**<br>*(auto-cycles from the first to the last desktop)*|<kbd>CapsLock</kbd> + <kbd>A</kbd><br><kbd>CapsLock</kbd> + <kbd>P</kbd>
 > **Switch** to the virtual desktop on the **right**<br>*(auto-cycles from the last to the first desktop)*|<kbd>CapsLock</kbd> + <kbd>S</kbd><br><kbd>CapsLock</kbd> + <kbd>N</kbd>
