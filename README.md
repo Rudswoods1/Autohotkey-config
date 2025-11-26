@@ -20,9 +20,9 @@ Autohotkey configuration I use to control workspaces (virtual desktops) on Windo
 > **Resizing** the current window|<kbd>Win</kbd> + <kbd>W</kbd>
 > **Switch** focus and cursor between windows|<kbd>Win</kbd> + <kbd>X</kbd> + <kbd>←</kbd><br><kbd>Win</kbd> + <kbd>X</kbd> + <kbd>→</kbd>
 > **Change** transparency of the current window|<kbd>Ctrl</kbd> + <kbd>B</kbd>
-> **Turn on** night mode and off|<kbd>Shift</kbd> + <kbd>F1</kbd><br><kbd>Shift</kbd> + <kbd>F2</kbd>
-> **Enable** Shutdown|<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Insert</kbd>
-> **Enable** Restart|<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Print Sc</kbd>
+> **Turn on** Night mode and off|<kbd>Shift</kbd> + <kbd>F1</kbd><br><kbd>Shift</kbd> + <kbd>F2</kbd>
+> **Shutdown** the System|<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Insert</kbd>
+> **Restart** the System|<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Print Sc</kbd>
 >
 > ## Overview
 > Some text
