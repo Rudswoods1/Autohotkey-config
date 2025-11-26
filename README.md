@@ -18,8 +18,7 @@ Autohotkey configuration I use to control workspaces (virtual desktops) on Windo
 > --- | :-:
 > **Close** the current window|<kbd>Win</kbd> + <kbd>Q</kbd>
 > **Resizing** the current window|<kbd>Win</kbd> + <kbd>W</kbd>
-> **Switch** focus and cursor between windows|<kbd>Win</kbd> + <kbd>X</kbd> + <kbd>←</kbd><br>
-<kbd>Win</kbd> + <kbd>X</kbd> + <kbd>→</kbd>
+> **Switch** focus and cursor between windows|<kbd>Win</kbd> + <kbd>X</kbd> + <kbd>←</kbd><br><kbd>Win</kbd> + <kbd>X</kbd> + <kbd>→</kbd>
 > **Change** transparency of the current window|<kbd>Ctrl</kbd> + <kbd>B</kbd>
 >
 >
