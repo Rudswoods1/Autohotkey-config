@@ -9,7 +9,7 @@ Action | Keys
 **Switch** to virtual desktop **1, 2, etc.**<br>|<kbd>Alt</kbd> + <kbd>1</kbd><br><kbd>Alt</kbd> + <kbd>2</kbd><br>...<br><kbd>Alt</kbd> + <kbd>9</kbd>
 **Create** a new virtual desktop|<kbd>Win</kbd> + <kbd>Ctrl</kbd> + <kbd>C</kbd>
 **Delete** the current virtual desktop|<kbd>Win</kbd> + <kbd>Ctrl</kbd> + <kbd>D</kbd>
-**Move** the current window to another desktop, then switch to it|<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>←</kbd><br><kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>→</kbd>
+**Move** the current window to another <br>desktop, then switch to it|<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>←</kbd><br><kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Alt</kbd> + <kbd>→</kbd>
 
 ## Windows OS Hotkeys 
  
