@@ -49,7 +49,7 @@ AutoHotkey configuration I use to control workspaces, programs and various syste
 >All features are implemented using pure AutoHotkey with support from VirtualDesktopAccessor.dll.
 
 > ## Running
-> 1. Install **AutoHotkey** (v1.1 or later)
+> 1. Install [Install AutoHotkey](https://autohotkey.com/download/) (v1.1 or later)
 > 2. Run the script:
    `Programs Keybinds.ahk`
 > 3. Place **VirtualDesktopAccessor.dll** in the script directory:
