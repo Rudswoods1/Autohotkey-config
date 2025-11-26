@@ -29,8 +29,14 @@ Autohotkey configuration I use to control workspaces (virtual desktops) on Windo
 > 
 > Action | Keys 
 > --- | :-:
-> **Close** the current window|<kbd>Win</kbd> + <kbd>Q</kbd>
-> **Resizing** the current window|<kbd>Win</kbd> + <kbd>W</kbd>
+> **CMD**|<kbd>Win</kbd> + <kbd>T</kbd>
+> **Task Manager**|<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Delete</kbd>
+> **Chrome**|<kbd>Win</kbd> + <kbd>F</kbd>
+> **Spotify**|<kbd>Win</kbd> + <kbd>S</kbd>
+> **Telegram**|<kbd>Win</kbd> + <kbd>G</kbd>
+> **VS CODE**|<kbd>Win</kbd> + <kbd>V</kbd>
+> **Notepad**|<kbd>Win</kbd> + <kbd>N</kbd>
+> **NotesHub**|<kbd>Win</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>
 
 > ## Overview
 > Some text
