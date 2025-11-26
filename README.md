@@ -10,7 +10,7 @@ Autohotkey configuration I use to control workspaces (virtual desktops) on Windo
 > **Switch** to virtual desktop **1, 2, etc.**<br>|<kbd>Alt</kbd> + <kbd>1</kbd><br><kbd>Alt</kbd> + <kbd>2</kbd><br>...<br><kbd>Alt</kbd> + <kbd>9</kbd>
 > **Create** a new virtual desktop|**<kbd> </kbd> + <kbd></kbd>**
 > **Delete** the current virtual desktop|<kbd></kbd> + <kbd></kbd>
-> **Move** the current window to another desktop, then switch to it<br>*Arrows <kbd>< </kbd>, <kbd>W</kbd>, etc. correspond to **1st, 2nd, etc.** desktops*|<kbd>CapsLock</kbd> + <kbd>Q</kbd><br><kbd>CapsLock</kbd> + <kbd>W</kbd><br>...<br><kbd>CapsLock</kbd> + <kbd>O</kbd>
+> **Move** the current window to another desktop, then switch to it|<kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Alt<kbd> + <kbd>←<kbd><br><kbd>Ctrl</kbd> + <kbd>Win</kbd> + <kbd>Alt<kbd> + <kbd>→<kbd>
 > **Move** the current window to the previous or the next desktop, then switch to it|<kbd>CapsLock</kbd> + <kbd>←</kbd><br><kbd>CapsLock</kbd> + <kbd>→</kbd>
 > 
 > Note, <kbd>CapsLock</kbd> continues to function normally even when it is used as a modifier. [But you can make the button do more useful things such as open overview, or disable it altogether](https://github.com/pmb6tz/windows-desktop-switcher/issues/67).
