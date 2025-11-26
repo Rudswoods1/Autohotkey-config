@@ -8,12 +8,9 @@ Autohotkey configuration I use to control workspaces (virtual desktops) on Windo
 > Action | Keys 
 > --- | :-:
 > **Switch** to virtual desktop **1, 2, etc.**<br>|<kbd>Alt</kbd> + <kbd>1</kbd><br><kbd>Alt</kbd> + <kbd>2</kbd><br>...<br><kbd>Alt</kbd> + <kbd>9</kbd>
-> **Switch back** to the last desktop used|<kbd>CapsLock</kbd> + <kbd>Tab</kbd>
-> **Switch** to the virtual desktop on the **left**<br>*(auto-cycles from the first to the last desktop)*|<kbd>CapsLock</kbd> + <kbd>A</kbd><br><kbd>CapsLock</kbd> + <kbd>P</kbd>
-> **Switch** to the virtual desktop on the **right**<br>*(auto-cycles from the last to the first desktop)*|<kbd>CapsLock</kbd> + <kbd>S</kbd><br><kbd>CapsLock</kbd> + <kbd>N</kbd>
-> **Create** a new virtual desktop|**<kbd>CapsLock</kbd> + <kbd>C</kbd>**
-> **Delete** the current virtual desktop|<kbd>CapsLock</kbd> + <kbd>D</kbd>
-> **Move** the current window to another desktop, then switch to it<br>*Keys <kbd>Q</kbd>, <kbd>W</kbd>, etc. correspond to **1st, 2nd, etc.** desktops*|<kbd>CapsLock</kbd> + <kbd>Q</kbd><br><kbd>CapsLock</kbd> + <kbd>W</kbd><br>...<br><kbd>CapsLock</kbd> + <kbd>O</kbd>
+> **Create** a new virtual desktop|**<kbd> </kbd> + <kbd></kbd>**
+> **Delete** the current virtual desktop|<kbd></kbd> + <kbd></kbd>
+> **Move** the current window to another desktop, then switch to it<br>*Arrows <kbd>< </kbd>, <kbd>W</kbd>, etc. correspond to **1st, 2nd, etc.** desktops*|<kbd>CapsLock</kbd> + <kbd>Q</kbd><br><kbd>CapsLock</kbd> + <kbd>W</kbd><br>...<br><kbd>CapsLock</kbd> + <kbd>O</kbd>
 > **Move** the current window to the previous or the next desktop, then switch to it|<kbd>CapsLock</kbd> + <kbd>←</kbd><br><kbd>CapsLock</kbd> + <kbd>→</kbd>
 > 
 > Note, <kbd>CapsLock</kbd> continues to function normally even when it is used as a modifier. [But you can make the button do more useful things such as open overview, or disable it altogether](https://github.com/pmb6tz/windows-desktop-switcher/issues/67).
