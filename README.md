@@ -23,7 +23,14 @@ Autohotkey configuration I use to control workspaces (virtual desktops) on Windo
 > **Turn on** Night mode and off|<kbd>Shift</kbd> + <kbd>F1</kbd><br><kbd>Shift</kbd> + <kbd>F2</kbd>
 > **Shutdown** the System|<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Insert</kbd>
 > **Restart** the System|<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Print Sc</kbd>
->
+
+> ## Windows OS Hotkeys 
+> 
+> Action | Keys 
+> --- | :-:
+> **Close** the current window|<kbd>Win</kbd> + <kbd>Q</kbd>
+> **Resizing** the current window|<kbd>Win</kbd> + <kbd>W</kbd>
+
 > ## Overview
 > Some text
 > 
