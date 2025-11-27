@@ -510,9 +510,3 @@ TileWindow(hWnd) {
 
 Cleanup:
     ExitApp
-
-; Ctrl+Alt+N - для следующего трека
-#IfWinActive
-^!n:: 
-Send {Media_Next}
-return
